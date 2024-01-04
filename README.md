@@ -1,25 +1,25 @@
-# twitter-data-etl
-The purpose of the project is to efficiently collect, process, and store Twitter data using a combination of Apache Airflow, Apache Spark, and Amazon S3. 
+# youtube-data-etl
+The purpose of the project is to efficiently collect, process, and store Youtube data using a combination of Apache Airflow, Apache Spark, and MongoDB. 
 
 ## Prerequisites
 
-Before setting up and running the Twitter Data Pipeline project, make sure you have the following prerequisites in place:
+Before setting up and running the YOutube Data Pipeline project, make sure you have the following prerequisites in place:
 
 1. **Environment Setup:**
    - Install and configure Apache Airflow.
    - Install and configure Apache Spark on the target machine or cluster.
 
-2. **Twitter Developer Account:**
-   - Obtain Twitter API credentials by creating a Twitter Developer account.
+2. **Youtube Developer Account:**
+   - Obtain YouTube API credentials.
 
-3. **AWS Account:**
-   - Create an AWS account to utilize Amazon S3 for storing processed data or any other storage you choose.
+3. **MongoDB:**
+   - Install MongoDB.
 
 4. **Access and Permissions:**
-   - Grant necessary permissions for Twitter API access and AWS S3 resources.
+   - Grant necessary permissions for YouTube API access and AWS S3 resources.
 
 5. **Data Schema Understanding:**
-   - Familiarize yourself with the structure of Twitter data returned by the API.
+   - Familiarize yourself with the structure of Youtube data returned by the API.
 
 6. **Apache Airflow Plugins:**
    - Identify and install required Airflow plugins based on project needs.
@@ -27,11 +27,6 @@ Before setting up and running the Twitter Data Pipeline project, make sure you h
 7. **Spark Job Configuration:**
    - Develop Spark jobs and ensure the correct setup of dependencies and configurations.
 
-8. **AWS S3 Bucket Configuration:**
-   - Create S3 buckets for storing processed data and configure access policies.
-
-9. **Logging and Monitoring:**
-   - Configure logging within Spark jobs and set up monitoring tools in Airflow.
 
 ## Getting Started
 
