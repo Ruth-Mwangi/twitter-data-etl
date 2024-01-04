@@ -19,7 +19,7 @@ Before setting up and running the YOutube Data Pipeline project, make sure you h
    - Grant necessary permissions for YouTube API access and AWS S3 resources.
 
 5. **Data Schema Understanding:**
-   - Familiarize yourself with the structure of Youtube data returned by the API.
+   - Familiarize yourself with the structure of YouTube data returned by the API.
 
 6. **Apache Airflow Plugins:**
    - Identify and install required Airflow plugins based on project needs.
@@ -33,8 +33,9 @@ Before setting up and running the YOutube Data Pipeline project, make sure you h
 Follow these steps to set up and run the Twitter Data Pipeline:
 
 1. Clone the repository.
-2. Install dependencies using the provided setup scripts.
-3. Configure Airflow connections for Twitter API and AWS.
-4. Set up Spark jobs based on project requirements.
-5. Run the Airflow DAG to initiate the data pipeline.
+2. Install dependencies using the provided in the requirements.txt
+   ```
+   pip install -r requirements. txt
+   ```
+4. Run the Airflow DAG to initiate the data pipeline.
 
